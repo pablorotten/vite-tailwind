@@ -11,7 +11,6 @@ volta pin node@20
 volta pin npm@bundled
 npm install
 npm install tailwindcss @tailwindcss/vite
-# npm install -D tailwindcss @tailwindcss/vite
 ```
 
 Create a vite.config.ts file and add tailwindcss to the plugins array:
