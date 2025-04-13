@@ -90,6 +90,7 @@ npm run deploy
 * In Build and deployment select the branch `gh-pages` and save
 * Go to https://pablorotten.github.io/vite-tailwind/
 
+![alt text](readme/image.png)
 ### 6. Update the page
 Everytime you need to update the page, just
 ```sh
