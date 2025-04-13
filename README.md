@@ -41,6 +41,23 @@ npm run dev
 
 - Mark `node_modules` as **excluded** in IntelliJ
 
+## Developing with Vite
+
+### Assets
+
+* Put your assets in the `assets` folder
+* Import them in the .ts file
+
+```ts
+import dummyLogo from './assets/dummy_logo.svg'
+
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+  <div>
+    <a href="https://vite.dev" target="_blank">
+      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+    </a>
+```
+
 ## Deploy in github pages
 
 Using [gh-pages](https://github.com/tschaub/gh-pages), we will create a parallel branch with the files that Github pages need
