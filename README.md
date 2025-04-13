@@ -40,3 +40,5 @@ npm run dev
 ### Hints
 
 - Mark `node_modules` as **excluded** in IntelliJ
+
+## Deploy in github pages
