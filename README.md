@@ -62,14 +62,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 Using [gh-pages](https://github.com/tschaub/gh-pages), we will create a parallel branch with the files that Github pages need
 
-### 1. Update vite.config.js
+### 1. Update vite.config.ts
    
 Set base to the repo name: `vite-tailwind`
 ```ts
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
-  ...,
+  plugins: [
+    tailwindcss(),
+  ],
   base: "/vite-tailwind/"
 })
 ```
